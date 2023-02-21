@@ -20,7 +20,11 @@
   },
   "plugins": ["@typescript-eslint"],
   "ignorePatterns": ["*/public//.js"],
-  "rules": {
-    "indent": ["error", 2]
+
+  "module.exports": {
+    "rules": {
+      "indent": "off",
+      "@typescript-eslint/indent": "warn"
+    }
   }
 }
