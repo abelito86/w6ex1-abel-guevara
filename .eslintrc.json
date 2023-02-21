@@ -5,12 +5,13 @@
   },
   "extends": [
     "xo",
-    "eslint:recommended', 'plugin:@typescript-eslint/recommended"
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
   "overrides": [
     {
       "extends": ["xo-typescript"],
-      "files": ["*.ts", "*.tsx"]
+      "files": [".ts", ".tsx"]
     }
   ],
   "parserOptions": {
@@ -19,7 +20,9 @@
   },
   "plugins": ["@typescript-eslint"],
   "ignorePatterns": ["*/public//.js"],
+
   "rules": {
-    "indent": ["error", 2]
+    "indent": ["Error", 2],
+    "@typescript-eslint/indent": ["Error", 2]
   }
 }
