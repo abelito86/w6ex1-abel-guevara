@@ -21,7 +21,7 @@
   "plugins": ["@typescript-eslint"],
   "ignorePatterns": ["*/public//.js"],
 
-  "module.exports": {
+  "moduleExports": {
     "rules": {
       "indent": "off",
       "@typescript-eslint/indent": "warn"
